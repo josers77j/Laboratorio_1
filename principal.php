@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>usuarios</title>
+    <title>inicio</title>
     <script src="https://kit.fontawesome.com/6dd4cfbed9.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
@@ -47,7 +47,7 @@
 
 <div class="p-4 p-md-5 mb-4 mt-5 rounded text-bg-dark">
         <div class="col-md-6 px-0">
-            <h1 class="display-4 fst-italic">Inicio</h1>
+            <h1 class="display-4 fst-italic">Bienvenido de vuelta!</h1>
             <p class="lead my-3">A continuacion datos de interes.</p>
         </div>
     </div>
@@ -109,7 +109,7 @@
   <div class="card-header">Vacunas suministradas</div>
   <div class="card-body">
   <i class="fas fa-syringe fs-1"></i>
-    <h5 class="card-title">+58</h5>
+    <h5 class="card-title fs-1">+58</h5>
     <p class="card-text">Totales</p>
   </div>
 </div>
@@ -117,7 +117,7 @@
 <div class="card-header">Mascotas desparasitadas</div>
   <div class="card-body">
   <i class="fas fa-bug fs-1"></i>
-    <h5 class="card-title">+125</h5>
+    <h5 class="card-title fs-1">+125</h5>
     <p class="card-text">Totales</p>
 </div>
 </div>
@@ -125,7 +125,7 @@
   <div class="card-header">Ingresos</div>
   <div class="card-body">
   <i class="fas fa-dollar-sign fs-1"></i>
-    <h5 class="card-title">+$15,485</h5>
+    <h5 class="card-title fs-1">+$15,485</h5>
     <p class="card-text">Totales</p>
   </div>
 </div>
@@ -135,50 +135,10 @@
 </main>
 
     <footer class="mt-auto bg-dark text-center text-white ">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <i class="fab fa-facebook"></i>
-                </a>
-
-                <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <i class="fab fa-twitter"></i>
-                </a>
-
-                <!-- Google -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <i class="fab fa-google"></i>
-                </a>
-
-                <!-- Instagram -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <i class="fab fa-instagram"></i>
-                </a>
-
-                <!-- Linkedin -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-
-                <!-- Github -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <i class="fab fa-github"></i>
-                </a>
-            </section>
-            <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             © 2020 Copyright:
             <a class="text-white" href="https://github.com/josers77j">Ruben Trejo</a>
         </div>
-        <!-- Copyright -->
     </footer>
 
 

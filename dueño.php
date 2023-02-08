@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>usuarios</title>
+    <title>dueños</title>
     <script src="https://kit.fontawesome.com/6dd4cfbed9.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
@@ -32,7 +32,7 @@
                         <a class="nav-link" href="mascotas.php">Mascotas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="medicamentos.php">Medicamentos</a>
+                        <a class="nav-link" href="medicamento.php">Medicamentos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.php" tabindex="-1" aria-disabled="true">Salir</a>
@@ -51,8 +51,20 @@
     </div>
 
     <div class="container">
-        <button type="button" class="btn btn-outline-primary btn-lg m-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Agregar</button>
-
+    <div class="row">
+            <button type="button" class="btn btn-outline-primary btn-lg m-3 col-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Agregar</button>
+            <form class="form-inline col-7">
+                <div class="row">
+                    <div class="col-md-6">
+                    <input type="search" class="form-control m-4 col-6" placeholder="Buscar por nombre" aria-label="Search">
+                    </div>
+                    <div class="col-md-6">
+                    <button class="btn btn-outline-success m-4 col-6" type="submit">Buscar</button>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -69,7 +81,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <label for="inputPassword4" class="form-label">Apellido</label>
-                                    <input type="apellido" class="form-control" id="inputPassword4" placeholder="miller">
+                                    <input type="apellido" class="form-control" id="inputPassword4" name="apellido" placeholder="miller">
                                 </div>
                                 <div class="col-12">
                                     <label for="inputAddress" class="form-label">Email</label>
@@ -135,7 +147,7 @@
 
                 </tr>
                 <?php
-                if (isset($_POST["usuario"])) {
+                if (isset($_POST["nombre"])) {
                     $nombre         =     $_POST["nombre"];
                     $apellido       =     $_POST["apellido"];
                     $email          =     $_POST["email"];
@@ -163,51 +175,12 @@
         </table>
     </div>
 
+
     <footer class="mt-auto bg-dark text-center text-white ">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <i class="fab fa-facebook"></i>
-                </a>
-
-                <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <i class="fab fa-twitter"></i>
-                </a>
-
-                <!-- Google -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <i class="fab fa-google"></i>
-                </a>
-
-                <!-- Instagram -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <i class="fab fa-instagram"></i>
-                </a>
-
-                <!-- Linkedin -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-
-                <!-- Github -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                    <i class="fab fa-github"></i>
-                </a>
-            </section>
-            <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             © 2020 Copyright:
             <a class="text-white" href="https://github.com/josers77j">Ruben Trejo</a>
         </div>
-        <!-- Copyright -->
     </footer>
 
 

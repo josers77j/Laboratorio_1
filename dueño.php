@@ -115,19 +115,23 @@
             <thead class="table-dark">
                 <tr>
                     <th scope="col">ID</th>
-                    <th scope="col">nombre</th>
-                    <th scope="col">apellido</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
                     <th scope="col">Email</th>
-                    <th scope="col">contraseña</th>
+                    <th scope="col">Direccion</th>
+                    <th scope="col">Departamento</th>
+                    <th scope="col">Municipio</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th scope="col">1</th>
-                    <td>vlrusky</th>
-                    <td>Valeria</th>
+                    <td>valeria</th>
+                    <td>saravia</th>
                     <td>vlrusky@yahoo.com</th>
-                    <td>*********</th>
+                    <td>ciudad avellanos colonia ponche #83</th>
+                    <td>san salvador</th>
+                    <td>soyapango</th>
 
                 </tr>
                 <?php
@@ -142,10 +146,12 @@
                     if (!empty($email)) {
                         echo '<tr>
                              <th scope="row">2</th>';
-                        echo    '<td> ' . $usuario . '</td>
-                                <td>' . $nombre . '</td>
+                        echo    '<td> ' . $nombre . '</td>
+                                <td>' . $apellido . '</td>
                                 <td>' . $email . '</td>
-                                <td>*******</td>
+                                <td>' . $direccion . '</td>
+                                <td>' . $departamento . '</td>
+                                <td>' . $municipio . '</td>
                                 </tr>';
                     }
                 }
